@@ -1,0 +1,27 @@
+# Ignore issues and pull requests with labels or from users
+ignore:
+  labels:
+  - label
+  users:
+  - user
+
+# Messages templates for issue and pull request
+messages:
+  issue: |
+    Hello @@{author} :wave:
+
+    I'm your friendly neighborhood bot and would like to say thank you for filling this issue,
+    a maintainer of this repository will come back to you as soon as possible.
+
+    Best regards,
+
+    ~ Hello bot
+  pull_request: |
+    Hello @@{author} :wave:
+
+    I'm your friendly neighborhood bot and would like to say thank your contribution,
+    a maintainer of this repository will come back to you as soon as possible.
+
+    Best regards,
+
+    ~ Hello bot
