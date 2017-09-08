@@ -3,7 +3,7 @@ ignore:
   labels:
   - label
   users:
-  - frozzare
+  - user
 
 # Messages templates for issue and pull request
 issue:
