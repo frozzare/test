@@ -6,8 +6,8 @@ ignore:
   - user
 
 # Messages templates for issue and pull request
-messages:
-  issue: |
+issue:
+  message: |
     Hello @@{author} :wave:
 
     I'm your friendly neighborhood bot and would like to say thank you for filling this issue,
@@ -15,8 +15,10 @@ messages:
 
     Best regards,
 
-    ~ Hello bot
-  pull_request: |
+    ~ Hellobot
+pull_request:
+  disabled: true
+  message: |
     Hello @@{author} :wave:
 
     I'm your friendly neighborhood bot and would like to say thank your contribution,
@@ -24,4 +26,4 @@ messages:
 
     Best regards,
 
-    ~ Hello bot
+    ~ Hellobot
