@@ -19,7 +19,7 @@ issue:
 
     ~ Hellobot
 pull_request:
-  disabled: true
+  disabled: false
   message: |
     Hello @@{author} :wave:
 
